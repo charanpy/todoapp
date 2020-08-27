@@ -1,0 +1,94 @@
+.todo {
+            display: flex;
+            justify-content: center;
+            margin-top: 8rem;
+
+
+            .todo_box {
+
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: space-evenly;
+                        width: 30%;
+                        border: 0.1px solid #ccc;
+                        border-radius: 5px;
+
+                        .justify {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: space-evenly;
+                        }
+
+                        h4 {
+                                    margin-top: 2rem;
+                                    margin-bottom: 3rem;
+                                    font-size: 2.5rem;
+                                    text-transform: uppercase;
+                                    font-family: fantasy;
+                                    letter-spacing: 1px;
+                                    font-weight: 500;
+
+                        }
+
+                        .button {
+                                    text-align: center;
+                                    margin: 3rem 0;
+
+
+                                    button {
+                                                padding: 4% 1% 4% 0;
+                                                text-align: center;
+                                                color: white;
+
+                                                font-family: "Open Sans Condensed";
+                                                font-size: 1.9rem;
+                                                width: 50%;
+                                                letter-spacing: 1px;
+
+                                                outline: none;
+                                                transition: all 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+                                    }
+                        }
+
+
+                        .in {
+                                    outline: none;
+                                    border: 0.6px solid #212529;
+                                    padding: 10px 15px;
+                                    width: 25rem;
+                                    transition: all 400ms linear;
+                                    font-size: 1.6rem;
+                                    font-family: "Ubuntu";
+                                    text-transform: capitalize;
+
+                                    &::placeholder {
+                                                font-family: "Open Sans";
+                                                font-size: 1.4rem;
+                                                color: #999;
+                                    }
+
+
+
+
+
+                                    &:not(:placeholder-shown) {
+                                                border: 1px solid green;
+                                    }
+                        }
+            }
+}
+
+.list {
+            margin-top: 3rem;
+}
+
+.todo_list {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            border-bottom: 1px solid #ccc;
+            padding: 2rem;
+            align-items: center;
+}

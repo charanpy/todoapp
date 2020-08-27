@@ -1,0 +1,48 @@
+.alert-enter {
+            opacity: 0;
+            transform: scale(0.9);
+}
+
+.alert-enter-active {
+            opacity: 1;
+            transform: translateX(0);
+            transition: opacity 300ms, transform 300ms;
+}
+
+.alert-exit {
+            opacity: 1;
+}
+
+.alert-exit-active {
+            opacity: 0;
+            transform: scale(0.9);
+            transition: opacity 300ms, transform 300ms;
+}
+
+.conta {
+            position: absolute !important;
+            top: 10rem !important;
+            right: 2rem !important;
+            width: 40rem !important;
+}
+
+.aler {
+            background: #121212 !important;
+            color: rgba(255, 255, 255, .8) !important;
+            transition: all 500ms cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.aler:hover {
+            color: white !important;
+}
+
+.closebtn {
+            border: none;
+            outline: none;
+            width: 10rem;
+            background: #018786;
+}
+
+.minu {
+            color: #B00020;
+}

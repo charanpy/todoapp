@@ -1,0 +1,64 @@
+.header {
+
+
+            height: 70px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 25px;
+            font-family: 'Open Sans Condensed';
+            padding: 20px 60px;
+            z-index: 1000;
+
+            .todo-head {
+                        color: #fc4168;
+                        font-weight: bold;
+                        font-size: 2.6rem;
+                        text-decoration: none;
+            }
+
+            .options {
+                        width: 50%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+
+                        a {
+                                    text-decoration: none;
+
+                        }
+
+                        .option {
+                                    padding: 10px 19px;
+                                    font-size: 1.7rem;
+                        }
+
+                        li i {
+                                    font-size: 2.2rem;
+                                    color: #fc4168;
+                                    display: none;
+
+                        }
+            }
+}
+
+@media screen and (max-width:768px) {
+            li i {
+                        display: flex;
+            }
+
+            .header .options {
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        height: auto;
+
+                        .option {
+                                    padding: 10px 0;
+
+                        }
+
+            }
+
+}

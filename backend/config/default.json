@@ -1,0 +1,6 @@
+{
+
+            "mongo": "mongodb+srv://charan:charanwebdev@cluster0.z6xx7.mongodb.net/todo?retryWrites=true&w=majority",
+            "jwtSecret": "mernprojapptodolist",
+            "salt": 10
+}
