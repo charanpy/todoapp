@@ -25,8 +25,8 @@ const sendMail = async (mail) => {
             let mailTransporter = nodemailer.createTransport({
                         service: "gmail",
                         auth: {
-                                    user: "charandp243@gmail.com",
-                                    pass: "Ch@ran123"
+                                    user: "test@gmail.com",
+                                    pass: ""
                         }
             });
 
